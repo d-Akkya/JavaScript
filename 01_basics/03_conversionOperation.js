@@ -58,9 +58,21 @@ console.log(1 + '2');
 console.log(1 + 2 + "2");
 console.log(1 + "3" + 2);
 
+console.log( (3 + 4) * 5 % 3); // code readability is very important while programming because pull request will not merge.
+//use () paranthesis for this type of values.
 
+console.log(+true); //boolean converted to number by increment & true+ => error
+console.log(+""); //+"" => 0
 
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
 
+let gameCounter = 100;
+++gameCounter; //++prefix & postfix++ Operator
+console.log(gameCounter);
+// search prefix and postfix js mdn for better understanding.
 
-
-
+/*
+link to study ecma script more important
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+*/
