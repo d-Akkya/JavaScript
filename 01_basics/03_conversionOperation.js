@@ -76,3 +76,21 @@ console.log(gameCounter);
 link to study ecma script more important
 https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
 */
+
+/* Increments Operator -
+Works on only num & BigInt for references of variables and object properties.
+Postfix (x++) increments and returns the value before incrementing.
+Prefix (++x) increments and returns the value after incrementing.
+*/
+
+// Examples :-
+
+// 1) Postfix Increments -
+let x = 2;
+const y = x++;
+console.log(x, y);
+
+// 2)Prefix Increments -
+let a = 3n;
+let b = ++a;
+console.log(a, b);
