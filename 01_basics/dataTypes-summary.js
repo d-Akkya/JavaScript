@@ -40,3 +40,29 @@ console.log(typeof (anotherId));
 //To study more typeof operator visit - https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let Akkya = "Trader";
+
+let Akhilesh = Akkya;
+console.log(Akhilesh);
+
+Akhilesh = "Investor";
+console.log(Akkya);
+console.log(Akhilesh);
+//Stack
+
+let userOne = {
+    email: "akkya@gmail.com",
+    upi: "akkya@ybl"
+} 
+
+let userTwo = userOne;
+
+userTwo.email = "user@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+//Heap (reference of value)
