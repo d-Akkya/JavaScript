@@ -24,4 +24,4 @@ console.log(Math.floor(Math.random() * 10) + 1); // here floor will get lowest v
 const min = 10
 const max = 20
 //for getting random value between 10 to 20 will use the formula:
-console.log(Math.floor(Math.random() * (max - min + 1)) + min); //this formula will print any random vakue between 10-20
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); //this formula will print any random value between 10-20
