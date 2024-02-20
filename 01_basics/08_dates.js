@@ -47,6 +47,6 @@ console.log(newDate.getMonth() + 1); //ok month index is at 0 so to show the use
 // we are using most:
 console.log(newDate.toLocaleString('default'/*internationalisation*/, {
     weekday: "long" //use 'ctrl+space' for suggestions in vs code.
-})); //we declare object and values in LocaleString function it heplful for customisaton.
+})); //we declare object and values in LocaleString function it heplful for customizaton.
 
 
