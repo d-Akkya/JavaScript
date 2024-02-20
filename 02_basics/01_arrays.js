@@ -1,2 +1,3 @@
-let akkya = ['akkya', 'devil']
-console.log(akkya);
+// array
+
+const myArray = [1, 3, 5, 2, 7]
