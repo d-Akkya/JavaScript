@@ -15,10 +15,10 @@ console.log(myDate.toLocaleTimeString("en-IN")); // time in indian format, reada
 console.log(typeof myDate); //so we created object of date, then typeof will be => object.
 
 // Not only this we can create a specific date:
-let myCreatedDate = new Date(2024, 01, 16) // month index starts from 0 in this array input like 0 = Jan
+let myCreatedDate = new Date(2024, 1, 16) // month index starts from 0 in this array input like 0 = Jan
 console.log(myCreatedDate.toDateString());
 // we can add time in front of date
-myCreatedDate = new Date(2024, 01, 16, 17, 33)
+myCreatedDate = new Date(2024, 1, 16, 17, 33)
 console.log(myCreatedDate.toLocaleString());
 
 //There's another method to declare a specified date:
