@@ -7,7 +7,7 @@ let mySym = Symbol("key1")
 const JsUser = {
     name: "Akkya", //it automatically understand that key declared name is string
     "full name": "Akhilesh Bamane", //can't be accessed by '.' method
-    0 : 20,
+    age: 20,
     email: "akkya@xyz.com",
     location: "Miraj",
     isLoggedIn: false,
