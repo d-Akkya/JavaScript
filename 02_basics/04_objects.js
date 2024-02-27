@@ -68,3 +68,23 @@ console.log(Object.entries(tinderUser)); //entries method is rarely used, it ret
 
 //Ask question to object wether the property exist or not:
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //before using the property it is better to check wether the following property exist or not in the object => true
+
+
+
+
+// +++++++++++++++++++++++ Object Destructuring +++++++++++++++++++++++++
+//destructuring can be done on objects as well as array.
+
+let course = {
+    coursename: 'JavaScript',
+    price: 5999,
+    courseInstructor: "Hitesh Choudhary"
+}
+console.log(course.courseInstructor);
+//At the time of we create clean code, we can't print course.courseInstructor every time it will be lengthy
+ const {courseInstructor} = course //here extrxting the value of {courseInstructor} & extracting the values from course object
+//now we can get the value of course.courseInstructor directly by courseInstructor
+// console.log(courseInstructor); //Hitesh Choudhary
+//Not only this if didn't want to type courseInstructor everytime, we can assign new name:
+let {courseInstructor: instructor} = course
+console.log(instructor);
