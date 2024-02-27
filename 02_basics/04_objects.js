@@ -86,5 +86,29 @@ console.log(course.courseInstructor);
 //now we can get the value of course.courseInstructor directly by courseInstructor
 // console.log(courseInstructor); //Hitesh Choudhary
 //Not only this if didn't want to type courseInstructor everytime, we can assign new name:
-let {courseInstructor: instructor} = course
+let {courseInstructor: instructor} = course //now, instructor has the value of courseInstructor
 console.log(instructor);
+//Destructuring comes to use like React.js
+
+
+// ++++++++++++++++++++++++++++ API ++++++++++++++++++++++++++++++
+// API (Application Programming Interface) is like waiter in the hotel and the menu is api documentation
+// Early days we get the data from backend in xml structure, but now-a-days we get the values in JSON (Javascript Object Notation) structure. 
+
+/*
+{
+    "name": "akkya",
+    "courseName": "JavaScript",
+    "price": "free"
+    "age": 20,
+    "isLoggedIn": false
+} */
+//it similar as object, but JSON has no name & we need to usually declare that key are string by ""
+//Not everytime we get the values in objects, somtimes it comes in arrays:
+[
+    {},
+    {}
+]
+//The most used sample api is 'random user me api'
+//To understand JSON data use 'Json Formatter' on browser.
+// This is only a brief introduction about JSON Api.
