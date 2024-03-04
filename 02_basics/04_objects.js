@@ -37,7 +37,7 @@ obj3 = Object.assign({}, obj1, obj2, obj4) //so here {} is target and obj1, obj2
 console.log(obj3);
 */
 
-//but we are using simple syntax most of the time is spread:
+//but we are using simple syntax most of the time is spread operator:
 obj3 = {...obj1, ...obj2, ...obj4}
 console.log(obj3);
 
