@@ -53,13 +53,34 @@ function userLoginName(username = "Sam" /* now we declared default value as Sam,
 }
 console.log(userLoginName());
 
+
+
+//More parameters or operators passed in functions:-
+// Give the name for functions that can easily understand by anyone what actually function is doing. 
+// In future we will work project like online shopping website or app, in that project user will add multiple items to cart and the cart must show the total price of cart. In this situation we don't know how many arguments will be passed, so therefore we need to create that kind of parameters. Rest operator (...)
+/*
+function calculateCartPrice(num1) {
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 550)); //now here the arguments are 3 and parameter is only one => 200
+*/
+//Now we can use rest operator:
+function calculateCartPrice(val1, val2, ...num1) {
+    return num1
+}
+console.log(calculateCartPrice(200, 300, 400, 500, 600)); //we get every argument passed in array
+// (...) works as rest & spread operator depends on the usecase situation.
+
+
+
+// Functions with objects:
 const user = {
     username: "Akkya",
     email: "akkya@007"
 }
 
-function handleObject(anyObjects){
-    console.log(`My name is ${anyObjects.username} and my email id is ${anyObjects['email']}`);
+function handleObject(anyObject){
+    console.log(`My name is ${anyObject.username} and my email id is ${anyObject['email']}`);
 }
 // handleObject(user) //=> My name is Akkya and my email id is akkya@007
 // we can create an object while executing the function
@@ -68,12 +89,13 @@ handleObject({
     email: "akhilesh@gmail.com"
 })
 
+// Let's pass the array in function:
 const myArray = [200, 500, 600, 900]
 
-function handleArray(getArray) {
+function arraySecondValue(getArray) {
     return getArray[1]
 }
-// console.log(handleArray(myArray)); //=> 500
-console.log(handleArray([1, 2, 3, 4, 5]));
+// console.log(arraySecondValue(myArray)); //=> 500
+console.log(arraySecondValue([1, 2, 3, 4, 5])); // same as objects we can create an array while passing the argument or executing the function => 2
 
 
