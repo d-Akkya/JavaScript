@@ -33,7 +33,7 @@ console.log(result); //9
 
 //Now we use if statement:
 function userLoginMessage(username) {
-    if(!username /*(username === undefined) here we check the values, if the values is true then statement goes further*/){
+    if(!username /*(username === undefined) here we check the values, if the values is true then statement goes further*/) {
         console.log("Please enter a username");
         return //if this return hits the further code will be not executable
     }
