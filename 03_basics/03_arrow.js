@@ -1,0 +1,1 @@
+//This arrow function feature is introduced in js6 in 2015.
