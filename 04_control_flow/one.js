@@ -25,3 +25,10 @@ Let's revise basic comparison operators:
 <, >, <=, >=, ==, !=, ===, !== (=== & !== strict check)
 '=' is used to assign values.
 */
+
+const score = 200
+
+if (score > 100) {
+    const power = 'fly'
+    console.log(`User power: ${power}`);
+}
