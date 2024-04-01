@@ -1,6 +1,5 @@
 // control flow/logic flow (There's no point to run all the code everytime, that's why code need to run on condition basis like- if Login some of code will run & if Logout another code will run) 
 
-const userLoggedIn = true
 const temperature = 37
 
 /*
@@ -26,9 +25,39 @@ Let's revise basic comparison operators:
 '=' is used to assign values.
 */
 
+//Let's revise scopes:
 const score = 200
 
 if (score > 100) {
-    const power = 'fly'
+    let power = 'fly' //if we used 'var' while declaring variable, it's totally global scope and can accessed the values of variable outside the block scope. 
     console.log(`User power: ${power}`);
+}
+// console.log(`User power: ${power}`); //Error (power is undefined) - because power variable is declared in block scope & we can't access it in global scope.
+
+
+//Short-hand notation of 'if' statement:
+const balance = 1000
+
+if (balance > 500) console.log("Short-hand notation"); //In this statement scope is Implicit & it's execute for only one line. 
+//if (balance > 500) console.log("test"), console.log("test2"); //There is way we can add other lines also by adding ',' but that will be immature/unreadable code. 
+
+// Nesting :-
+const currentBalance = 1500
+
+if (currentBalance < 500) {
+    console.log("Less than 500");
+} else if (currentBalance < 1000) {
+        console.log("Less than 1000");
+} else if (currentBalance < 1200) {
+    console.log("Balance is less than 1200");
+} else {
+    console.log("Greater than 1200");
+} //this is basic if-else statement used to check multiple conditions
+
+//Realtime example of Nesting: (Buying course)
+const userLoggedIn = true
+const debitCard = true
+
+if (userLoggedIn && debitCard) {
+    console.log("Allow to buy course");
 }
