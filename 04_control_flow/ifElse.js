@@ -57,7 +57,14 @@ if (currentBalance < 500) {
 //Realtime example of Nesting: (Buying course)
 const userLoggedIn = true
 const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard && 2==2) {
+if (userLoggedIn && debitCard && 2==3) {
     console.log("Allow to buy course");
-}
+} //used '&&' it is double And it work to check multiple conditions at a time, if one of the condition is false then 'if' statement will not execute.
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log('User logged in');
+} //In this statement we used '|' 'pipe sign' it works to test multiple conditions, it is like 'or', if one of the condition from the given condition is true 'if' statement will execute.
+// It is used in conditional-rendering in React.
