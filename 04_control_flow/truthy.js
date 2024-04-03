@@ -44,3 +44,10 @@ let val1;
 // Interesting case:
 val1 = null ?? 10 ?? 15   // 15 (the first value get's printed)
 console.log(val1);
+
+
+//Terniary operator:
+// condition ? true : false     //basic syntax
+const starbucksCoffee = 100
+
+starbucksCoffee <= 80 ? console.log("Less than 80") : console.log("More than 80")
