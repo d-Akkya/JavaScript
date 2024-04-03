@@ -28,4 +28,19 @@ if (userEmail.length === 0) {
 // And, how we can find out the given value are empty object {} :
 const emptyObj = {}
 
-if ()
+if (Object.keys(emptyObj).length === 0) {
+    console.log("Object is Empty");
+}
+
+
+// Nullish Coalescing Operator (??): null, undefined
+let val1;
+// val1 = 5 ?? 10  //10
+//This operator is invented for when we create functions and methods to call values from database. The database not respond directly sometimes it will null and value, no respond (undefined) and value to assign and adjust the code structure.
+
+// val1 = null ?? 10   //10
+// val1 = undefined ?? 15   //15
+
+// Interesting case:
+val1 = null ?? 10 ?? 15   // 15 (the first value get's printed)
+console.log(val1);
