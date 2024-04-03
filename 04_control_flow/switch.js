@@ -30,4 +30,4 @@ switch (month) {
         console.log("Out of reach");
         break;
 } //'break' is interesting when the key value match if we didn't use the 'break' it will not check the remaining conditions automatically executes the all code except 'default'.
-//check case-sensitivity while checking the string.
+//We can compare the values in number also in string it's easy like if-else statement. Check case-sensitivity while checking the string.
