@@ -10,23 +10,24 @@
 //         break;
 // } //basic syntax
 
-const month = 3
+const month = "March"
 
 switch (month) {
-    case 1:
+    case "Jan":
         console.log("January");
         break;
-    case 2:
+    case "Feb":
         console.log("Feb");
         break;
-    case 3:
+    case "March":
         console.log("March");
         break;
-    case 4:
+    case "April":
         console.log("April");
         break;
 
     default:
         console.log("Out of reach");
         break;
-}
+} //'break' is interesting when the key value match if we didn't use the 'break' it will not check the remaining conditions automatically executes the all code except 'default'.
+//check case-sensitivity while checking the string.
