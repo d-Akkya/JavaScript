@@ -11,9 +11,10 @@ for (let i = 0; i <= 10; i++) {
 //Let's use loop under loop:
 for (let i = 0; i <= 10; i++) //we can use 'i' as variable because previously used 'i' is limited for that respective loop (block scope scope)
 {
-    for (let index = 0; index < array.length; index++) //here we can't use variable as 'i' because this loop is under a loop, so it creates a mismatch problem.
+    console.log(`Outer loop value: ${i}`);
+    for (let j = 0; j <= 10; j++) //here we can't use variable as 'i' because this loop is under a loop, so it creates a mismatch problem.
     {
-        const element = array[index];
+        console.log(`Inner loop value: ${j}`);
         
     }
     
