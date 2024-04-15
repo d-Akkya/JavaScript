@@ -29,3 +29,7 @@ for (let index = 0; index < myArray.length; index++) {
     console.log(element);
 } //if we use 'index <= array.length' in js there's no exception bound problem, but the extra value is printed 'undefined'
 //in case you didn't use the '++' means instead of 'index++' you use only 'index' the loop not change the values & stuck into first value/go to infinity and may consume more storage.
+
+
+// break & continue:
+//Sometimes we get 1000's of data from database, but we need to print 4-5 data from them, so everytime it's not important that 
