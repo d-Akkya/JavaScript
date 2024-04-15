@@ -27,5 +27,5 @@ console.log(myArray.length); //3
 for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
     console.log(element);
-} //if we use 'index <= array.length' in js there's no exception bound problem, but the extra is value is printed 'undefined'
-//in case you didn't use the '++' means instead of 'index++' you use only 'index' the loop not change the values & and stuck into first value/go to infinity and may consume more storage.
+} //if we use 'index <= array.length' in js there's no exception bound problem, but the extra value is printed 'undefined'
+//in case you didn't use the '++' means instead of 'index++' you use only 'index' the loop not change the values & stuck into first value/go to infinity and may consume more storage.
