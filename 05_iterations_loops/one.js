@@ -9,10 +9,10 @@ for (let i = 0; i <= 10; i++) {
 }   //rule first we initialize variable, second condition if it's true (eg. if) then loop is executed till the second-last line of the scope of loop and returns to the third stage i.e i++ till the second condition satisfies. 
 
 //Let's use loop under loop:
-for (let i = 0; i <= 10; i++) //we can use 'i' as variable because previously used 'i' is limited for that respective loop (block scope scope)
+for (let i = 1; i <= 10; i++) //we can use 'i' as variable because previously used 'i' is limited for that respective loop (block scope scope)
 {
     console.log(`Outer loop value: ${i}`);
-    for (let j = 0; j <= 10; j++) //here we can't use variable as 'i' because this loop is under a loop, so it creates a mismatch problem.
+    for (let j = 1; j <= 10; j++) //here we can't use variable as 'i' because this loop is under a loop, so it creates a mismatch problem.
     {
         // console.log(`Inner loop value: ${j} and outer loop is ${i}`);
         console.log(`${i} * ${j} = ${i*j}`);                
