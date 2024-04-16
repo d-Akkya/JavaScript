@@ -32,4 +32,5 @@ for (let index = 0; index < myArray.length; index++) {
 
 
 // break & continue:
-//Sometimes we get 1000's of data from database, but we need to print 4-5 data from them, so everytime it's not important that 
+//Sometimes we get 1000's of data from database, but we need to print 4-5 data from them, so everytime it's not important that the loop will rustart & will run till the end, sometimes some condition comes in between the loop and we need to end the loop on that condition basis.
+//for that 'break' & 'continue' keywords are used.
