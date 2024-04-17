@@ -1,8 +1,9 @@
-// while loop
+// while loop:
+//while loop is easy & same as 'if' statement because syntax. There is difference between for & while loop because of syntax (condition intialization & increment)
 let index = 0;
 while (index <= 10) {
     console.log(index);
-    index = index + 2
+    index = index + 2  //increment is done inside the scope, we can also use index++
 }
 
 
