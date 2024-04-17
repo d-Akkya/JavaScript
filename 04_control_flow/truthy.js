@@ -42,7 +42,7 @@ let val1;
 // val1 = undefined ?? 15   //15
 
 // Interesting case:
-val1 = null ?? 10 ?? 15   // 15 (the first value get's printed)
+val1 = null ?? 10 ?? 15   // 10 (the first value get's printed)
 console.log(val1);
 
 
