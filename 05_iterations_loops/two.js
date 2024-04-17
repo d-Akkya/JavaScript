@@ -16,8 +16,8 @@ while (arr < myArray.length){
 }
 
 
-//do-while loop:
-let gameScore = 1
+//do-while loop: (उधारी सिस्टम)
+let gameScore = 11
 do {
     console.log(`Score is ${gameScore}`);
     gameScore++
