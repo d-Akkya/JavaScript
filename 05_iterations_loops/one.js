@@ -35,6 +35,10 @@ for (let index = 0; index < myArray.length; index++) {
 //Sometimes we get 1000's of data from database, but we need to print 4-5 data from them, so everytime it's not important that the loop will rustart & will run till the end, sometimes some condition comes in between the loop and we need to end the loop on that condition basis.
 //for that 'break' & 'continue' keywords are used.
 
-for (let index = 0; index <=20; index++) {
-    
-}
+for (let index = 1; index <=20; index++) {
+    if (index == 5) {
+        console.log("5 is a best number");
+        break
+    }
+    console.log(index);    
+} //break keyword is same as we used it previously in switch-case. Whenever the condition is matched 'break' will not execute the remaining code and ends the scope.
