@@ -42,3 +42,11 @@ for (let index = 1; index <=20; index++) {
     }
     console.log(index);    
 } //break keyword is same as we used it previously in switch-case. Whenever the condition is matched 'break' will not execute the remaining code and ends the scope.
+
+for (let index = 1; index <= 10; index++) {
+    if (index == 6) {
+        console.log("6 is my lucky number");
+        continue;
+    }
+    console.log(index);    
+}
