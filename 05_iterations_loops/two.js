@@ -22,3 +22,4 @@ do {
     console.log(`Score is ${gameScore}`);
     gameScore++
 } while (gameScore <= 10);
+//In do-while loop first the task is done then it checks the condition in last.
