@@ -49,4 +49,6 @@ for (let i = 1; i <= 10; i++) {
         continue;
     }
     console.log(`Value of i is ${i}`);    
-}
+} //When the condition match and continue hits the further code will be ignored/skip only one time, but the loop will not directly end, after skipping once the loop will run till end.
+
+//The main difference between break & continue keyword is when the 'break' hits it says that condition is matched and direct end the loop, whereas when 'continue' hits it will skip the further code execution for once and will continue the loop ("i'll forgive your mistake once, you can carry on").
