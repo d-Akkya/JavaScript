@@ -22,5 +22,8 @@ let gameScore = 11
 do {
     console.log(`Score is ${gameScore}`);
     gameScore++
-} while (gameScore <= 10);
-//In do-while loop, first the task is done then it checks the condition in last.
+} while (gameScore <= 10);  //11
+//In do-while loop, first the task is done then it checks the condition in the end.
+//It is rarely used, in common we first check condition & then control the flow.
+
+//There are 1000's of ways to generate a required output, so weither use for, while, do-while loop, map, etc. At the end the output should be generated.
