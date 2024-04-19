@@ -31,3 +31,13 @@ console.log(map);
 for (const [key, value] of map) {
     console.log(key, ":-", value);   
 }
+
+// for-of on Object:
+const myObj = {
+    game1: "Soccer",
+    game2: "Cricket"
+}
+
+for (const [key, value] of myObj) {
+    console.log(key, value);
+} // Error-object is not iteratable in this method...
