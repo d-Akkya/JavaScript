@@ -27,3 +27,7 @@ map.set('Fr', "France")
 map.set('IN', "India") //this will not print because map contains only unique key-values.
 
 console.log(map);
+
+for (const [key, value] of map) {
+    console.log(key, ":-", value);   
+}
