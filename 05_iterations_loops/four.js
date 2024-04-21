@@ -3,9 +3,9 @@ const myObject = {
     js: "javascript",
     rb: "ruby",
     cpp: "C++",
-    swift: "swift by apple"
+    py: "python"
 }
 
 for (const key in myObject) {
-    console.log(key)
+    console.log(myObject[key])
 }
