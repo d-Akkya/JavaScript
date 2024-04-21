@@ -20,6 +20,8 @@ for (const greet of greetings) {
 
 
 // Maps:-
+//In JS Maps is also a datatype object.
+//The Map object holds key-value pairs & remembers the original insertion order of the keys, Any value (both objects & primitive values) may be used as either a key or a value, It has no duplicates it contains only unique key-value pairs. 
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
