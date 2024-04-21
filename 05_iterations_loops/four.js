@@ -18,7 +18,7 @@ for (const key in programming) {
     // console.log(key); //but it's printing only keys of array in this loop, as we see the for-of loop gives the values of array. Yes it is the major syntax difference between for-of & for-in loop.
     console.log(programming[key]);  
 }
-//Array also have keys by default numbers starts with 0, but in object we can add keys whatever we want.
+//Array also have keys by default in numbers starts with 0, but in object we can add keys whatever we want.
 
 
 // for-in loop on Map:
