@@ -16,4 +16,9 @@ const greet = function (index) {
 coding.forEach(greet) //another variation by injecting/reference of fn.
 //Remember giving a reference of function not executing (), printing job will done automatically.
 
+//forEach have more access rather than only 'value' parameter like 'index', 'array': (value, index, array)
+coding.forEach( (item, index, arr) => {
+    console.log(item, index, arr);
+} )
+//Actually we didn't need of whole array, but it has the access of whole array.
 
