@@ -23,3 +23,11 @@ for (const key in programming) {
 
 // for-in loop on Map:
 const map = new Map()
+map.set('IN', "India")
+map.set('USA', "United States of America")
+map.set('Fr', "France")
+map.set('IN', "India") //this will not print because map contains only unique key-values.
+
+for (const [key, value] in map) {
+    console.log(key, value)
+} //so Map is not iterable in this loop.
