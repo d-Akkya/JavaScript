@@ -7,7 +7,7 @@
 
 for (const num of arr) {
     console.log(num);
-}
+} //no increment needed that's why it is commonly used by developers.
 
 //for-of on string:
 const greetings = "Hello world!"
