@@ -19,3 +19,7 @@ for (const key in programming) {
     console.log(programming[key]);  
 }
 //Array also have keys by default numbers starts with 0, but in object we can add keys whatever we want.
+
+
+// for-in loop on Map:
+const map = new Map()
