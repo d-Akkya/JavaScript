@@ -22,3 +22,24 @@ coding.forEach( (item, index, arr) => {
 } )
 //Actually we didn't need of whole array, but it has the access of whole array.
 
+
+//The common scenario of using forEach: [{}, {}, {}]
+const myCoding = [
+    {
+        languageName: "javascript",
+        fileExtension: "js"
+    }, 
+    {
+        languageName: "python",
+        fileExtension: "py"
+    }, 
+    {
+        languageName: "java",
+        fileExtension: "java"
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName);
+} ) //here we named every object in the array as 'item' and accessed it with the .languageName
+//this is common operation because data will come in array containing objects from database.
