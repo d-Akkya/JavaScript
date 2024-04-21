@@ -41,3 +41,4 @@ const myObj = {
 for (const [key, value] of myObj) {
     console.log(key, value);
 } // Error-object is not iteratable in this method...
+//There's other way to object iterations.
