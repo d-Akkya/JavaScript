@@ -6,8 +6,4 @@ const values = coding.forEach( (item) => {
 } )
 
 console.log(values); //forEach is not returning any value
-
-for (let i = 0; i < coding.length; i++) {
-    const element = coding[i];
-    console.log(element);    
-}
+//Sometimes we get the situation when we don't need the values of array must be printed, we need to return or get the values from array on the condition basis.
