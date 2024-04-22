@@ -18,4 +18,15 @@ const newNums = myNums.filter( (num) => {
 //This is basics of filter simple callback fn and then condition, whenever the condition satisfies the values matching the condition will be returned and which values not satisfies the condition will be not returned by 'filter'
 console.log(newNums);
 
+//But if we want to use forEach for same output of 'return':
+const num = []
+
+myNums.forEach( (val) => {
+    if (val > 4) {
+        num.push(val)
+    }
+} ) 
+console.log(num); //this method also works, but we need apply logic in this method & filter is much easier
+
+
 
