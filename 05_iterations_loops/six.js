@@ -11,7 +11,10 @@ console.log(values); //forEach is not returning any value
 //for that situation we use filter:
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNums = myNums.filter( (num) => num > 4 )
+// const newNums = myNums.filter( (num) => num > 4 ) //implicit return
+const newNums = myNums.filter( (num) => {
+    return num > 4 //explicit return (scope starts)
+} )
 //This is basics of filter simple callback fn and then condition, whenever the condition satisfies the values matching the condition will be returned and which values not satisfies the condition will be not returned by 'filter'
 console.log(newNums);
 
