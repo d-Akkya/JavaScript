@@ -42,6 +42,11 @@ const books = [
   ];
 
 let userBooks = books.filter( (bk) => bk.genre === "History" )
-
+//But when user requirement is to find a book which publish after or in 1995 & the book must 
+userBooks = books.filter( (bk) => {
+    return bk.publish >= 1995
+} )
 console.log(userBooks);
 
+const akkya = [ {title: 'Book One', genre: "Fiction"}, {title: 'Book Two', genre: 'Non-Fiction'}, {title: 'Book Three', genre: "History"}]
+console.log(akkya.filter( (bk) => bk.genre === "History" ));
