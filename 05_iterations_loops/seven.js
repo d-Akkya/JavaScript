@@ -11,4 +11,4 @@ const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //map method:-
 const newNums = myNumbers.map( function (num) {return num + 10} )
 console.log(newNums);
-
+//we can add conditions in map but it will petrate all values unlike filter whenever the condition value is true it will return those valuesm, map is different.
