@@ -19,3 +19,5 @@ const newNums = myNumbers
                 .filter( (num) => num >= 40 )
 
 console.log(newNums);
+//when chaining, the result of first method is passed to second chain/method.
+//all the values will return in map function, we can manage it with implicit & explicit 'return'
